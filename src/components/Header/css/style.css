@@ -1,0 +1,37 @@
+#root .header-component {
+  padding: 16px;
+  border-bottom: 1px solid rgb(51, 51, 51);
+  box-sizing: border-box;
+}
+#root .header-component > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#root .header-component > .container > .title {
+  font-weight: 600;
+  font-size: 14px;
+}
+#root .header-component > .container > .search-box {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(51, 51, 51);
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding: 5px 8px;
+  display: flex;
+  gap: 7px;
+}
+#root .header-component > .container > .search-box > .search-svg {
+  width: 16px;
+  height: 16px;
+}
+#root .header-component > .container > .search-box > .search {
+  font-size: 14px;
+  width: 309px;
+  height: 20px;
+  background-color: black;
+  border: unset;
+  padding: unset;
+}/*# sourceMappingURL=style.css.map */

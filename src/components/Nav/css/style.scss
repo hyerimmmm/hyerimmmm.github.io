@@ -1,0 +1,16 @@
+#root {
+  .nav-component {
+    display: inline-block;
+    height: 100%;
+    width: 318px;
+    border-right: 1px solid rgb(56, 56, 56);
+    .profile-img {
+      width: 92px;
+      height: 92px;
+      border-radius: 50%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}
