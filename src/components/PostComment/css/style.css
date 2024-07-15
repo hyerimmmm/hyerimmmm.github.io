@@ -1,0 +1,37 @@
+#root .comment {
+  color: white;
+}
+#root .comment-wrapper {
+  display: flex;
+}
+#root .comment-wrapper .emotion-img {
+  padding-right: 16px;
+}
+#root .comment-wrapper .comment-input {
+  border: unset;
+  background-color: black;
+  width: 100%;
+  color: white;
+}
+#root .comment-wrapper input::-moz-placeholder {
+  color: rgb(168, 168, 168);
+}
+#root .comment-wrapper input::placeholder {
+  color: rgb(168, 168, 168);
+}
+#root .comment-wrapper .comment-submit-btn {
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.875rem;
+  color: rgb(0, 149, 246);
+  background-color: unset;
+  border: unset;
+  width: 40px;
+  height: 18px;
+}
+#root .comment-wrapper .detail-comment-submit-btn {
+  width: 50px;
+}
+#root .detail-comment-wrapper {
+  padding: 14px 16px;
+}/*# sourceMappingURL=style.css.map */

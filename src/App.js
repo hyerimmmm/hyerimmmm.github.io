@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Main from "./pages/Main/Main";
+import "./core/core.css";
+import { useSelector } from "react-redux";
+import Join from "./pages/Join/Join";
+import Explore from "./pages/Explore/Explore";
+import NavBar from "./components/NavBar/NavBar";
+import Story from "./pages/Story/Story";
+import { useState } from "react";
 
 function App() {
+  const count = useSelector((state) => state);
+  const [isNavBar, setIsNavBar] = useState(null);
+  const [storyIdx, setStoryIdx] = useState(undefined);
+  const onNavBar = (type, idx) => {
+    setIsNavBar(type);
+    setStoryIdx(idx);
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      {isNavBar === "noNav" ? null : <NavBar />}
+      <Routes>
+        <Route path="/" element={<Main onNavBar={onNavBar} />} />
+        <Route path="/join" element={<Join onNavBar={onNavBar} />} />
+        <Route path="/explore" element={<Explore />} />
+        <Route
+          path="/stories"
+          element={<Story onNavBar={onNavBar} idx={storyIdx} />}
+        />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

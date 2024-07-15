@@ -1,0 +1,43 @@
+#root .post-header {
+  display: flex;
+  justify-content: space-between;
+}
+#root .post-header .user-info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+#root .post-header .user-info .profile-img {
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  margin: 0 7px 0 4px;
+}
+#root .post-header .user-info .user-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+}
+#root .post-header .user-info .dot {
+  border: 1.5px solid rgb(168, 168, 168);
+  border-radius: 50px;
+}
+#root .post-header .user-info .date {
+  color: rgb(168, 168, 168);
+  font-size: 14px;
+  font-weight: 400;
+}
+#root .detail-post-header {
+  border-bottom: 1px solid rgb(38, 38, 38);
+  padding: 14px 16px;
+}
+#root .detail-post-header .user-info {
+  gap: 4px;
+}
+#root .detail-post-header .user-info .profile-img {
+  margin: unset;
+  margin-right: 14px;
+}/*# sourceMappingURL=style.css.map */

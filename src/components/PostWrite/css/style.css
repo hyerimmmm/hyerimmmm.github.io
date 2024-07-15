@@ -1,0 +1,130 @@
+#root .post-write-page .write-wrapper {
+  color: white;
+  margin: 8px 0;
+}
+#root .post-write-page .write-wrapper .write-content > .profile-img {
+  width: 32px;
+  height: 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+}
+#root .post-write-page .write-wrapper .write-content .write-view {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  white-space: pre-line;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+#root .post-write-page .write-wrapper .write-content .write-view > .user-name {
+  font-size: 14px;
+  font-weight: 600;
+  border: unset;
+  background: unset;
+  color: white;
+  padding: unset;
+  margin-right: 4px;
+}
+#root .post-write-page .write-wrapper .write-content .detail-write-view {
+  display: unset;
+}
+#root .post-write-page .write-wrapper .write-content .seemore-write-view {
+  display: unset;
+}
+#root .post-write-page .write-wrapper .detail-write-content {
+  padding-bottom: 16px;
+  display: flex;
+  gap: 16px;
+}
+#root .post-write-page .write-wrapper .detail-write-content .detail-write-view {
+  overflow: unset;
+}
+#root .post-write-page .write-wrapper .comments {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+#root .post-write-page .write-wrapper .comments .comment-left {
+  display: flex;
+  gap: 16px;
+}
+#root .post-write-page .write-wrapper .comments .comment-left > .profile-img {
+  width: 32px;
+  height: 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+}
+#root .post-write-page .write-wrapper .comments .comment-left .comment-content .comment-content-top .user-name {
+  font-size: 14px;
+  font-weight: 600;
+  border: unset;
+  background: unset;
+  color: white;
+  padding: unset;
+  margin-right: 4px;
+}
+#root .post-write-page .write-wrapper .comments .comment-left .comment-content .comment-content-bottom {
+  display: flex;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(168, 168, 168);
+  margin: 8px 0 4px 0;
+}
+#root .post-write-page .write-wrapper .comments .comment-left .comment-content .comment-content-bottom .time {
+  margin-right: 12px;
+}
+#root .post-write-page .write-wrapper .comments > .comment-like-img {
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+#root .post-write-page .write-wrapper .comments > .like-img {
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+#root .post-write-page .detail-write-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+  gap: 18px;
+  height: 100%;
+  overflow: auto;
+}
+#root .post-write-page > .seemore {
+  border: unset;
+  background: unset;
+  color: rgb(168, 168, 168);
+  font-size: 14px;
+  font-weight: 400;
+  padding: unset;
+  cursor: pointer;
+  display: block;
+}
+#root .comment-count {
+  margin: 8px 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(168, 168, 168);
+  cursor: pointer;
+  background: unset;
+  border: unset;
+  padding: unset;
+}
+#root .comment {
+  color: white;
+}
+#root .detail-post-write-page {
+  height: 524px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */

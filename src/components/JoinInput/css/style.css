@@ -1,0 +1,56 @@
+#root .join-input {
+  width: 266px;
+  height: 38px;
+  background-color: rgb(250, 250, 250);
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 3px;
+  margin-bottom: 6px;
+  padding: 9px 8px 7px 8px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+#root .join-input > .input {
+  border: unset;
+  background: unset;
+  font-size: 12px;
+  font-weight: 500;
+  width: 100%;
+  margin: unset;
+  padding: unset;
+}
+#root .join-input .input-right {
+  display: flex;
+  gap: 8px;
+}
+#root .join-input .input-right > .success-msg {
+  width: 23px;
+  height: 23px;
+  background-image: url(/public/assets/main/instagam.png);
+  background-size: 440px 442px;
+  background-position: -402px -355px;
+}
+#root .join-input .input-right .pw-show-btn {
+  background: unset;
+  border: unset;
+  color: rgb(38, 38, 38);
+  font-size: 14px;
+  font-weight: 700;
+  width: 77px;
+  padding: unset;
+  cursor: pointer;
+}
+#root .join-input .input-right .pw-not-show-btn {
+  width: 37px;
+}
+#root .join-input > .err-msg {
+  width: 26px;
+  height: 27px;
+  background-image: url(/public/assets/main/instagam.png);
+  background-size: 440px 442px;
+  background-position: -402px -380px;
+}
+#root .join-input > .display-none {
+  display: none;
+}/*# sourceMappingURL=style.css.map */

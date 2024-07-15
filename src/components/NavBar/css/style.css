@@ -1,0 +1,88 @@
+.nav-section {
+  position: fixed;
+  width: 220px;
+  height: 787px;
+  padding: 8px 12px 20px 12px;
+  border-right: 1px solid rgb(38, 38, 38);
+}
+.nav-section .content .logo {
+  padding: 25px 12px 35px 12px;
+}
+.nav-section .content .nav-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 679px;
+}
+.nav-section .content .nav-wrapper .nav {
+  display: flex;
+  flex-direction: column;
+}
+.nav-section .content .nav-wrapper .seemore {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  width: 220px;
+  cursor: pointer;
+  padding: 14px 12px;
+  box-sizing: border-box;
+}
+.nav-section .content .nav-wrapper .seemore .nav-text {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.notice-wrapper {
+  width: 397px;
+  height: 100%;
+  position: fixed;
+  left: 73px;
+  background: black;
+  z-index: 3;
+  border-right: 1px solid rgb(38, 38, 38);
+  border-radius: 4%;
+  color: white;
+}
+.notice-wrapper .notice-wrap {
+  padding: 24px 0;
+}
+.notice-wrapper .notice-wrap > .title {
+  font-weight: 700;
+  font-size: 24px;
+  padding: 0 24px;
+}
+.notice-wrapper .notice-wrap .today-notice-wrapper {
+  border-bottom: 1px solid rgb(38, 38, 38);
+  padding: 24px 24px 12px 24px;
+}
+.notice-wrapper .notice-wrap .today-notice-wrapper .sub-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+.notice-wrapper .notice-wrap .today-notice-wrapper .content-wrapper {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.notice-wrapper .notice-wrap .today-notice-wrapper .content-wrapper .content-left {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.notice-wrapper .notice-wrap .today-notice-wrapper .content-wrapper .content-right > .user-name {
+  font-weight: 600;
+}
+
+.open-side-nav-section {
+  width: 48px;
+}
+.open-side-nav-section .content .logo {
+  padding: 25px 12px 40px 12px;
+}/*# sourceMappingURL=style.css.map */

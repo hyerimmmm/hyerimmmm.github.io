@@ -1,0 +1,36 @@
+#root{
+    .comment{
+        color: white;
+    }
+    .comment-wrapper{
+        display: flex;
+        .emotion-img{
+            padding-right: 16px;
+        }
+        .comment-input{
+            border: unset;
+            background-color: black;
+            width: 100%;
+            color: white;
+        }
+        input::placeholder{
+            color: rgb(168,168,168);
+        }
+        .comment-submit-btn{
+            font-weight: 600;
+            cursor: pointer;
+            font-size: .875rem;
+            color: rgb(0, 149, 246);
+            background-color: unset;
+            border: unset;
+            width: 40px;
+            height: 18px;
+        }
+        .detail-comment-submit-btn{
+            width: 50px;
+        }
+    }
+    .detail-comment-wrapper{
+        padding: 14px 16px;
+    }
+}

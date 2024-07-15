@@ -1,0 +1,30 @@
+#root{
+    .nav-section{
+        .nav-btn{
+            width: 220px;
+            display: flex;
+            cursor: pointer;
+            align-items: center;
+            gap: 16px;
+            border: unset;
+            background: unset;
+            .nav-text{
+                color: white;
+                font-weight: 500;
+                font-size: 16px;
+            }
+            padding: 14px 12px;
+            box-sizing: border-box;
+        }
+    }
+    .open-side-nav-section{
+        .nav-btn{
+            width: 48px;
+            border: unset;
+            background: unset;
+            .nav-text{
+                display: none;
+            }
+        }
+    }
+}

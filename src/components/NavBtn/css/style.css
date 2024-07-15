@@ -1,0 +1,24 @@
+#root .nav-section .nav-btn {
+  width: 220px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  gap: 16px;
+  border: unset;
+  background: unset;
+  padding: 14px 12px;
+  box-sizing: border-box;
+}
+#root .nav-section .nav-btn .nav-text {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+#root .open-side-nav-section .nav-btn {
+  width: 48px;
+  border: unset;
+  background: unset;
+}
+#root .open-side-nav-section .nav-btn .nav-text {
+  display: none;
+}/*# sourceMappingURL=style.css.map */

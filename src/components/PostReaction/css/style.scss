@@ -1,0 +1,41 @@
+#root {
+  .post-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    .reaction-wrapper {
+      display: flex;
+      justify-content: space-between;
+      .reaction {
+        display: flex;
+        gap: 16px;
+        .reaction-btn {
+          cursor: pointer;
+          background-color: black;
+          border: unset;
+          padding: unset;
+          height: 24px;
+        }
+      }
+    }
+    .save {
+      cursor: pointer;
+    }
+    .detail-reaction-wrapper {
+      padding: 14px 16px 8px 16px;
+      height: 24px;
+    }
+    .like {
+      font-size: 14px;
+      font-weight: 700;
+      color: white;
+    }
+    .detail-like {
+      padding: 0 16px 16px 16px;
+    }
+  }
+  .detail-post-footer {
+    border-bottom: 1px solid rgb(38, 38, 38);
+    border-top: 1px solid rgb(38, 38, 38);
+  }
+}

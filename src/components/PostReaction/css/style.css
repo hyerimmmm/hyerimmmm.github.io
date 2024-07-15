@@ -1,0 +1,39 @@
+#root .post-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#root .post-footer .reaction-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+#root .post-footer .reaction-wrapper .reaction {
+  display: flex;
+  gap: 16px;
+}
+#root .post-footer .reaction-wrapper .reaction .reaction-btn {
+  cursor: pointer;
+  background-color: black;
+  border: unset;
+  padding: unset;
+  height: 24px;
+}
+#root .post-footer .save {
+  cursor: pointer;
+}
+#root .post-footer .detail-reaction-wrapper {
+  padding: 14px 16px 8px 16px;
+  height: 24px;
+}
+#root .post-footer .like {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+}
+#root .post-footer .detail-like {
+  padding: 0 16px 16px 16px;
+}
+#root .detail-post-footer {
+  border-bottom: 1px solid rgb(38, 38, 38);
+  border-top: 1px solid rgb(38, 38, 38);
+}/*# sourceMappingURL=style.css.map */

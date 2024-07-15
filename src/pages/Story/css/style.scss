@@ -1,0 +1,98 @@
+#root {
+  .story-page {
+    height: 100%;
+    color: white;
+    & > .logo {
+      position: absolute;
+      left: 0;
+      top: 0;
+      padding: 16px;
+    }
+    & > .close-btn {
+      position: absolute;
+      right: 0;
+      width: 24px;
+      height: 24px;
+      padding: 24px;
+      cursor: pointer;
+    }
+    & > .container {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+
+      & > .story-wrapper {
+        display: flex;
+        align-items: center;
+        height: 100%;
+
+        position: relative;
+        padding: 0 46px;
+        & > .story {
+          border-radius: 8px;
+          width: 420px;
+          height: 760px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          & > .line {
+            margin: 20px 16px 0 16px;
+            width: 1px;
+            border-top: 2px solid white;
+          }
+          & > .active {
+            width: 380px;
+            transition: width 3s;
+          }
+          & > .user-info {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            padding: 8px 16px;
+            & > .user-bg {
+              width: 32px;
+              height: 32px;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              border-radius: 50%;
+            }
+            & > .user-name {
+              font-size: 14px;
+              font-weight: 700;
+            }
+          }
+        }
+        & > .left-btn {
+          background-image: url(/public/assets/main/instagam.png);
+          background-size: 440px 441px;
+          background-position: -129px -105px;
+          width: 30px;
+          height: 30px;
+          background-color: unset;
+          border: unset;
+          padding: unset;
+          position: absolute;
+          top: 50%;
+          left: 8px;
+          cursor: pointer;
+        }
+        & > .right-btn {
+          background-image: url(/public/assets/main/instagam.png);
+          background-size: 440px 441px;
+          background-position: -160px -105px;
+          width: 30px;
+          height: 30px;
+          background-color: unset;
+          border: unset;
+          padding: unset;
+          position: absolute;
+          right: 8px;
+          top: 50%;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

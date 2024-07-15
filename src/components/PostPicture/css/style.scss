@@ -1,0 +1,37 @@
+#root {
+  .picture {
+    padding: 12px 0;
+    position: relative;
+    & > img {
+      border-radius: 3px;
+    }
+    & > .left-btn {
+      background-image: url(/public/assets/main/instagam.png);
+      background-size: 440px 441px;
+      background-position: -129px -105px;
+      width: 30px;
+      height: 30px;
+      background-color: unset;
+      border: unset;
+      padding: unset;
+      position: absolute;
+      top: 50%;
+      left: 8px;
+      cursor: pointer;
+    }
+    & > .right-btn {
+      background-image: url(/public/assets/main/instagam.png);
+      background-size: 440px 441px;
+      background-position: -160px -105px;
+      width: 30px;
+      height: 30px;
+      background-color: unset;
+      border: unset;
+      padding: unset;
+      position: absolute;
+      right: 8px;
+      top: 50%;
+      cursor: pointer;
+    }
+  }
+}

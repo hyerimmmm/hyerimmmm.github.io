@@ -1,0 +1,149 @@
+#root .join-page {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+#root .join-page .join-wrapper {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+#root .join-page .join-wrapper .join-box {
+  border-radius: 1px;
+  border: 1px solid rgb(219, 219, 219);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 46px 40px 38px 40px;
+  text-align: center;
+}
+#root .join-page .join-wrapper .join-box > .logo {
+  background-image: url(/public/assets/main/instagam.png);
+  background-position: 0px -128px;
+  background-size: 439px 408px;
+  width: 175px;
+  height: 51px;
+}
+#root .join-page .join-wrapper .join-box > .title {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(115, 115, 115);
+  margin-top: 8px;
+}
+#root .join-page .join-wrapper .join-box .facebook-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 18px 0;
+  border: unset;
+  color: white;
+  font-weight: 800;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: rgb(0, 149, 246);
+  border-radius: 8px;
+  width: 268px;
+  height: 34px;
+  padding: 7px 16px;
+}
+#root .join-page .join-wrapper .join-box .facebook-login > .facebook-logo {
+  background-image: url(/public/assets/main/instagam.png);
+  width: 16px;
+  height: 16px;
+  background-position: -364px -353px;
+  background-size: 440px 441px;
+}
+#root .join-page .join-wrapper .join-box .or-wrap {
+  display: flex;
+  align-items: center;
+  width: 268px;
+  margin-bottom: 18px;
+}
+#root .join-page .join-wrapper .join-box .or-wrap > .line {
+  border: 0.5px solid rgb(219, 219, 219);
+  height: 0;
+  width: 100%;
+}
+#root .join-page .join-wrapper .join-box .or-wrap .or {
+  margin: 0 18px;
+  color: rgb(115, 115, 115);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  width: 60px;
+}
+#root .join-page .join-wrapper .join-box > .text {
+  margin: 10px 0 18px 0;
+  line-height: 16px;
+  font-weight: 400;
+  color: rgb(115, 115, 115);
+  font-size: 12px;
+}
+#root .join-page .join-wrapper .join-box > .text .read-more {
+  border: unset;
+  background: unset;
+  color: rgb(0, 55, 107);
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 12px;
+}
+#root .join-page .join-wrapper .join-box .disabled-btn {
+  border: unset;
+  color: white;
+  background-color: rgb(0, 149, 246);
+  opacity: 0.7;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  width: 268px;
+  height: 32px;
+}
+#root .join-page .join-wrapper .join-box > .join-btn {
+  opacity: 1;
+  cursor: pointer;
+}
+#root .join-page .join-wrapper .login-box {
+  border-radius: 1px;
+  border: 1px solid rgb(219, 219, 219);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+}
+#root .join-page .join-wrapper .login-box > .login-wrap {
+  font-size: 14px;
+  font-weight: 450;
+}
+#root .join-page .join-wrapper .login-box > .login-wrap > .login-btn {
+  border: unset;
+  background: unset;
+  color: rgb(0, 149, 246);
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 600;
+}
+#root .join-page .join-wrapper .download-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  gap: 20px;
+}
+#root .join-page .join-wrapper .download-box > .text {
+  font-size: 14px;
+  font-weight: 500;
+}
+#root .join-page .join-wrapper .download-box > .download-link-wrap {
+  display: flex;
+  gap: 8px;
+}
+#root .join-page .join-wrapper .download-box > .download-link-wrap > .download-link {
+  width: 136px;
+  height: 40px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
